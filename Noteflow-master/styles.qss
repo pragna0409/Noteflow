@@ -1,0 +1,244 @@
+/* QMainWindow - Light gray background inspired by OneNote */
+QMainWindow {
+    background: #F3F2F1;
+}
+
+/* App title with a bold, modern style */
+#appTitle {
+    font-size: 28px;
+    font-weight: bold;
+    color: #7719AA;
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+    padding: 15px;
+    background: #FFFFFF;
+    border-bottom: 2px solid #7719AA;
+    text-align: center;
+}
+
+/* Sidebar with a slightly darker gray */
+#sidebar {
+    background: #EDEDED;
+    border-right: 2px solid #7719AA;
+}
+
+/* Sidebar title with accent blue */
+#sidebarTitle {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    color: #0078D7;
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+    border-bottom: 1px solid #7719AA;
+}
+
+/* Section labels with secondary green */
+#sectionLabel {
+    font-size: 16px;
+    font-weight: bold;
+    color: #107C10;
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+}
+
+/* Text edit areas with a clean white background */
+QTextEdit {
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 14px;
+    background: #FFFFFF;
+    color: #323130;
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+}
+
+/* Read-only text edit with a light gray background */
+QTextEdit[readOnly="true"] {
+    background: #F9F9F9;
+}
+
+/* Buttons with OneNote’s accent blue */
+QPushButton {
+    background: #0078D7;
+    color: #FFFFFF;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+}
+
+/* Hover effect for buttons */
+QPushButton:hover {
+    background: #005A9E;
+}
+
+/* Disabled button styling */
+QPushButton:disabled {
+    background: #B0B0B0;
+    color: #666666;
+}
+
+/* Tool buttons styled like OneNote icons */
+QToolButton {
+    background: #EDEDED;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px; /* Larger for emoji icons */
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+}
+
+QToolButton:hover {
+    background: #D0D0D0;
+}
+
+/* Labels with dark gray text */
+QLabel {
+    font-size: 14px;
+    color: #323130;
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+}
+
+/* List widget with a white background */
+QListWidget {
+    border: 1px solid #CCCCCC;
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Note item with a light background */
+#noteItem {
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+    border: 1px solid #CCCCCC;
+    background: #FAFAFA;
+}
+
+/* Note item hover effect with accent blue */
+#noteItem:hover {
+    border: 1px solid #0078D7;
+}
+
+/* Note title styling */
+#noteTitle {
+    font-weight: bold;
+    font-size: 16px;
+    color: #323130;
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+}
+
+/* Note content styling */
+#noteContent {
+    font-size: 14px;
+    color: #323130;
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+}
+
+/* Note tags styling */
+#noteTags {
+    font-size: 12px;
+    color: #666666;
+    font-style: italic;
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+}
+
+/* Note status styling */
+#noteStatus {
+    font-size: 12px;
+    color: #666666;
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+}
+
+/* Note reminder styling */
+#noteReminder {
+    font-size: 12px;
+    color: #666666;
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+}
+
+/* Note files styling */
+#noteFiles {
+    font-size: 12px;
+    color: #666666;
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+}
+
+/* Note collaborators styling */
+#noteCollaborators {
+    font-size: 12px;
+    color: #666666;
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+}
+
+/* Note drawing styling */
+#noteDrawing {
+    font-size: 12px;
+    color: #666666;
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+}
+
+/* Line edit with a white background */
+QLineEdit {
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 14px;
+    background: #FFFFFF;
+    color: #323130;
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+}
+
+/* Progress bar styling */
+QProgressBar {
+    border-radius: 5px;
+    height: 8px;
+    background-color: #EDEDED;
+}
+
+/* Progress bar chunk with accent blue */
+QProgressBar::chunk {
+    background-color: #0078D7;
+}
+
+/* Checkbox styling */
+QCheckBox {
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+    color: #323130;
+}
+
+/* Login Screen with white background */
+LoginScreen {
+    background: #FFFFFF;
+}
+
+/* Sign-in button with OneNote-like blue */
+QPushButton#sign_in_button {
+    background-color: #0078D7;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Hover effect for sign-in button */
+QPushButton#sign_in_button:hover {
+    background-color: #005A9E;
+}
+
+/* Status label with gray text */
+QLabel#statusLabel {
+    font-size: 14px;
+    color: #666666;
+    margin-top: 10px;
+}
+
+/* User info label with dark gray text */
+QLabel#userInfoLabel {
+    font-size: 14px;
+    color: #323130;
+    margin-bottom: 10px;
+    font-style: italic;
+}
